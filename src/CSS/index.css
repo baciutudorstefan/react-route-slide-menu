@@ -16,6 +16,7 @@ code {
 
 * {
   box-sizing: border-box;
+  color: #fcbb6d;
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
@@ -35,17 +36,6 @@ code {
   font-size: 3rem;
 }
 
-/* .home_page {
-  background: red;
-  height: 100vh;
+body {
+  background: #685d79;
 }
-
-.about_page {
-  background: blue;
-  height: 100vh;
-}
-
-.contact_page {
-  background: green;
-  height: 100vh;
-} */ ;

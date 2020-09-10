@@ -5,8 +5,6 @@ import NavBar from "./NavBar";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
-import Team from "../pages/Team";
-import Reports from "../pages/Reports";
 import Products from "../pages/Products";
 
 class ReactRoutes extends React.Component {
@@ -20,8 +18,6 @@ class ReactRoutes extends React.Component {
               <Route path="/" exact component={Home} />
               <Route path="/about" component={About} />
               <Route path="/contact" component={Contact} />
-              <Route path="/team" component={Team} />
-              <Route path="/reports" component={Reports} />
               <Route path="/products" component={Products} />
             </Switch>
           </div>
